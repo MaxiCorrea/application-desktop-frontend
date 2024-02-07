@@ -18,8 +18,7 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Install & Build React App
-        run: npm install && npm run build
-      - name: El token es ${{ secrets.NPM_AUTH_TOKEN }}
+        run: npm install && npm run build  El token es ${{ secrets.NPM_AUTH_TOKEN }}
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 
