@@ -19,6 +19,7 @@ jobs:
       
       - name: Install & Build React App
         run: npm install && npm run build
+      - name: El token es ${{ secrets.NPM_AUTH_TOKEN }}
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 
