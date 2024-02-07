@@ -25,4 +25,5 @@ jobs:
         with:
           branch: gh-pages
           folder: build
+          token: ${{ secrets.NPM_TOKEN }}
 
