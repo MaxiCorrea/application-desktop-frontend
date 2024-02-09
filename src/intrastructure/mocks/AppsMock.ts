@@ -4,37 +4,37 @@ export const appsMock: App[] = [
   {
     id: 1,
     base64: "",
-    description: "App 1",
+    description: "",
     url: "",
   },
   {
     id: 2,
     base64: "",
-    description: "App 2",
+    description: "",
     url: "",
   },
   {
     id: 3,
     base64: "",
-    description: "App 3",
+    description: "",
     url: "",
   },
   {
     id: 4,
     base64: "",
-    description: "App 4",
+    description: "",
     url: "",
   },
   {
     id: 5,
     base64: "",
-    description: "App 5",
+    description: "",
     url: "",
   },
   {
     id: 6,
     base64: "",
-    description: "App 6",
+    description: "",
     url: "",
   },
 ];
