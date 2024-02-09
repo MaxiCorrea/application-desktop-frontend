@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { UI } from "./views/UI";
 import * as serviceWorker from "./serviceWorker";
+import { UI } from "./intrastructure/views/UI";
+import { useCases } from "./intrastructure/config/IoC_Config";
 
 ReactDOM.render(
-   <UI />, 
+   <UI useCases={useCases}/>, 
   document.getElementById("root")
 );
-  
+
 serviceWorker.unregister();
