@@ -6,5 +6,5 @@ import { FeedbackRepositoryInMemory } from "../memory/FeedbackRepositoryInMemory
 
 export const useCases: UseCaseFactory = {
   displayMenuUseCase: new DisplayMenuUseCase(new AppRepositoryInMemory()),
-  sendFeedbackUseCase: new SendFeedbackUseCase( new FeedbackRepositoryInMemory());
+  sendFeedbackUseCase: new SendFeedbackUseCase( new FeedbackRepositoryInMemory())
 };
