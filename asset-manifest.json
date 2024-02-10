@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/application-desktop/static/js/main.4dec379c.js",
-    "index.html": "/application-desktop/index.html",
-    "main.4dec379c.js.map": "/application-desktop/static/js/main.4dec379c.js.map"
+    "main.js": "/application-desktop-frontend/static/js/main.4dec379c.js",
+    "index.html": "/application-desktop-frontend/index.html",
+    "main.4dec379c.js.map": "/application-desktop-frontend/static/js/main.4dec379c.js.map"
   },
   "entrypoints": [
     "static/js/main.4dec379c.js"
