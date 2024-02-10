@@ -15,7 +15,15 @@ export const Menu: React.FC<MenuProps> = ({ useCase }) => {
       {loading ? (
         <MxSpinner />
       ) : (
-        <div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-start",
+            flexWrap : "wrap",
+            marginTop: "10px",
+            marginLeft : "10px" 
+          }}
+        >
           {data.map((app) => (
             <Item key={app.id} app={app} />
           ))}
