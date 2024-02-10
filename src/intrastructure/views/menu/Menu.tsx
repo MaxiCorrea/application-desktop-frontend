@@ -20,8 +20,8 @@ export const Menu: React.FC<MenuProps> = ({ useCase }) => {
             display: "flex",
             justifyContent: "flex-start",
             flexWrap : "wrap",
-            marginTop: "10px",
-            marginLeft : "10px" 
+            marginTop: "30px",
+            marginLeft : "20px", 
           }}
         >
           {data.map((app) => (
