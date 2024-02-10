@@ -15,8 +15,5 @@ export class DisplayMenuUseCase {
         const menu = new Menu(apps);
         return menu;
       })
-      .catch((err) => {
-        throw new Error(err);
-      });
   };
 }
