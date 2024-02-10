@@ -23,7 +23,13 @@ export const Home: React.FC<HomeProps> = ({ useCases }) => {
           />
         }
       />
-      <div style={{ height: "100vh", overflowY: "scroll" }}>
+      <div style={{ 
+          display : "flex",
+          justifyContent : "center",
+          alignItems : "flex-start",
+          height: "100vh", 
+          overflowY: "scroll",
+        }}>
         <Menu useCase={useCases.displayMenuUseCase} />
       </div>
     </MxScrollbar>
