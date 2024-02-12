@@ -1,11 +1,11 @@
 {
   "name": "application-desktop-frontend",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "homepage": "https://maxicorrea.github.io/application-desktop-frontend/",
   "dependencies": {
     "@material-ui/core": "4.12",
-    "@maxicorrea/mx-header": "^1.0.4",
+    "@maxicorrea/mx-header": "^1.0.7",
     "@maxicorrea/mx-scrollbar": "^1.0.2",
     "@maxicorrea/mx-spinner": "^1.0.4",
     "@testing-library/jest-dom": "^5.16.2",
