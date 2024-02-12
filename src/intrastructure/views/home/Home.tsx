@@ -15,13 +15,10 @@ export const Home: React.FC<HomeProps> = ({ useCases }) => {
     <MxScrollbar>
       <MxHeader
         tooltipText={`Application Desktop v${pkg.version}`}
-        leftLinks={
-          <img
-            src={logo.toString()}
-            alt="Application Logo"
-            style={{ height: "45px" }}
-          />
-        }
+        logoSrc={`${logo.toString()}`}
+        onClickLogo={()=>{
+          window.location.reload();
+        }}
       />
       <div style={{ 
           display : "flex",
