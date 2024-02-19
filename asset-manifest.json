@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/application-desktop-frontend/static/js/main.158151fe.js",
+    "main.js": "/application-desktop-frontend/static/js/main.22d330d2.js",
     "index.html": "/application-desktop-frontend/index.html",
-    "main.158151fe.js.map": "/application-desktop-frontend/static/js/main.158151fe.js.map"
+    "main.22d330d2.js.map": "/application-desktop-frontend/static/js/main.22d330d2.js.map"
   },
   "entrypoints": [
-    "static/js/main.158151fe.js"
+    "static/js/main.22d330d2.js"
   ]
 }
