@@ -1,7 +1,6 @@
 import * as React from "react";
 import { App } from "../../../domain/models/App";
 import { makeStyles } from "@material-ui/core/styles";
-import logo from "../assets/desktop-logo.png";
 
 const useItemStyles = makeStyles(() => ({
   btn: {
@@ -15,7 +14,7 @@ const useItemStyles = makeStyles(() => ({
       filter: "alpha(opacity=85)",
       transform: "scale(1.2)",
     },
-    marginBottom : "10px"
+    marginBottom: "10px",
   },
   img: {
     maxHeight: "45px",
@@ -29,9 +28,13 @@ interface ItemProps {
 export const Item: React.FC<ItemProps> = ({ app }) => {
   const classes = useItemStyles();
   return (
-    <button className={classes.btn}>
-      {app.name}
-      <img className={classes.img} src={logo} alt="App Logo" />
+    <button 
+      className={classes.btn}
+      onClick={()=> {
+        alert(`Click in ${app.name}`)
+      }}
+    >
+      <img className={classes.img} src={app.base64} alt="App Logo" />
     </button>
   );
 };
