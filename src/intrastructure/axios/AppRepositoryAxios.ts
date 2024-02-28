@@ -1,5 +1,5 @@
 import { App, IApp } from "../../domain/models/App";
-import { IMenu, Menu } from "../../domain/models/Menu";
+import { Menu } from "../../domain/models/Menu";
 import { AppRepository } from "../../domain/repositories/AppRepository";
 import { AxiosApp } from "./AxiosConfig";
 
